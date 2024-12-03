@@ -57,6 +57,10 @@ header nav ul li {
     list-style: none;
 }
 
+.hr-hamburger {
+    display: none;
+}
+
 a {
     text-decoration: none;
 }
@@ -460,6 +464,7 @@ hr {
 
     .hr-hamburger {
         width: 100%;
+        display: block;
     }
 }
 
