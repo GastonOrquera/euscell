@@ -616,6 +616,13 @@ hr {
         padding: 0 .8rem;
     }
 
+    .box {
+        background-color: #16a34a05;
+        width: 100%;
+        padding: 1rem 1rem;
+        border-radius: .4rem;
+    }
+
     .section-inicio h1 {
         font-size: 1.2rem;
     }
