@@ -127,6 +127,7 @@ header nav ul li a:hover {
 .box {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .box .btn {
@@ -435,7 +436,7 @@ hr {
         background-color: var(--bg-sections);
         width: 100%;
         left: 0;
-        padding: 2rem;
+        padding: 1rem;
         border-bottom-left-radius: .8rem;
         border-bottom-right-radius: .8rem;
     }
@@ -460,6 +461,12 @@ hr {
 
     .hamburger {
         display: flex;
+        border-radius: .2rem;
+        background-color: #22C55E;
+    }
+
+    .hamburger:hover {
+        background-color: #16A34A;
     }
 
     .hr-hamburger {
@@ -468,5 +475,104 @@ hr {
     }
 }
 
+@media screen and (max-width: 824px) {
+
+    .section-c {
+        padding: 12rem 2rem;
+    }
+
+    .section-c .box h2 {
+
+        font-size: 2rem;
+    }
+
+    .section-c .box p {
+        font-size: .7rem;
+    }
+
+    .section-inicio h1 {
+        font-size: 2.4rem;
+    }
+
+}
+
+@media screen and (max-width: 756px) {
+    .section-c {
+        padding: 2rem 1rem;
+        flex-direction: column;
+    }
+
+    .box {
+        padding: 0 2rem;
+    }
+
+    .img-c {
+        width: 21rem;
+    }
+
+    .section-c .box h2 {
+
+        font-size: 2.2rem;
+    }
+
+    .section-c .box p {
+        font-size: .9rem;
+    }
+
+    .section-inicio h1 {
+        font-size: 1.8rem;
+    }
+
+    .section-inicio p {
+        font-size: .9rem;
+    }
+
+    .img-decoration {
+        top: 96%;
+        height: 12rem;
+    }
+
+    .two {
+        display: none;
+    }
+
+    .btn {
+        padding: 1rem 22rem;
+    }
+
+    .conteiner-cards {
+        grid-template-columns: repeat(1, 100%);
+    }
+
+    .section-servicios {
+        width: 100%;
+
+        .card {
+            width: 100%;
+            gap: .6rem;
+        }
+    }
+
+}
+
+
+@media screen and (max-width: 500px) {
+
+
+    .section-inicio h1 {
+        font-size: 1.520rem;
+    }
+
+    .section-inicio p {
+        font-size: .9rem;
+    }
+
+    .img-decoration {
+        top: 102%;
+        height: 10rem;
+    }
+
+
+}
 
 /* FIN MEDIAQUERIES */
