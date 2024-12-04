@@ -268,10 +268,36 @@ hr {
     border-radius: .3rem;
 }
 
+.bg-black {
+    background-color: rgb(0, 0, 0);
+}
+
 .conteiner-cards {
     display: grid;
     grid-template-columns: repeat(3, 7fr);
     gap: 2rem;
+}
+
+.bg-black .card {
+    text-align: start;
+    padding: 2rem;
+    width: 30rem;
+}
+
+.bg-black .conteiner-cards {
+    grid-template-columns: repeat(2, 6fr);
+}
+
+.flex {
+    display: flex;
+    gap: .4rem;
+    align-items: center;
+}
+
+.bg-black li {
+    color: #ffffff;
+    margin-left: .9rem;
+    margin-top: .4rem;
 }
 
 .card {
@@ -422,6 +448,12 @@ hr {
     .img-c {
         width: 28rem;
     }
+
+    .bg-black .conteiner-cards {
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        place-items: center;
+    }
 }
 
 /* CELULAR */
@@ -470,6 +502,11 @@ hr {
     .hr-hamburger {
         width: 100%;
         display: block;
+    }
+
+    .bg-black .conteiner-cards {
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
     }
 }
 
