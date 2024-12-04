@@ -292,6 +292,15 @@ hr {
     grid-template-columns: repeat(2, 6fr);
 }
 
+.conteiner-cards.s-h {
+    display: flex;
+}
+
+.conteiner-cards.s-h .c-h {
+    width: 50rem;
+    padding: 1.4rem;
+}
+
 .flex {
     display: flex;
     gap: .4rem;
@@ -327,6 +336,8 @@ hr {
 .card p {
     color: #ffffff;
 }
+
+
 
 /* FIN SECCION SERVICIOS */
 
@@ -432,7 +443,6 @@ hr {
     }
 
     .section-c .box h2 {
-
         font-size: 2.4rem;
     }
 
@@ -457,6 +467,10 @@ hr {
         grid-template-columns: repeat(1, 1fr);
         width: 100%;
         place-items: center;
+    }
+
+    .conteiner-cards.s-h {
+        justify-content: center;
     }
 }
 
