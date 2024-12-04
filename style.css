@@ -29,6 +29,10 @@ html {
     background-color: #22c55e39;
 }
 
+.separate {
+    justify-content: space-between;
+}
+
 header {
     background-color: var(--black);
     display: flex;
@@ -616,11 +620,17 @@ hr {
         padding: 0 .8rem;
     }
 
+    header .hamburger {
+        margin-right: .3rem;
+    }
+
     .box {
         background-color: #16a34a05;
         width: 100%;
         padding: 1rem 1rem;
         border-radius: .4rem;
+        border: 1px solid #22c55e2b;
+
     }
 
     .section-inicio h1 {
