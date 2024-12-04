@@ -121,7 +121,6 @@ header nav ul li a:hover {
     background-color: var(--black);
     font-family: var(--font-prueba);
     padding: 12rem 0;
-    font-weight: 300;
 }
 
 .box {
@@ -576,13 +575,16 @@ hr {
 
 @media screen and (max-width: 410px) {
 
+    header {
+        padding: 0 .8rem;
+    }
 
     .section-inicio h1 {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 
     .section-inicio p {
-        font-size: .9rem;
+        font-size: .8rem;
     }
 
     .img-decoration {
