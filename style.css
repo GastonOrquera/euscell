@@ -127,7 +127,7 @@ header nav ul li a:hover {
 .box {
     display: flex;
     flex-direction: column;
-    width: 100%;
+
 }
 
 .box .btn {
@@ -139,7 +139,6 @@ header nav ul li a:hover {
     position: absolute;
     top: 68%;
     height: 24rem;
-    /* animation: movement 4s ease-in-out infinite; */
 }
 
 .two {
@@ -561,6 +560,25 @@ hr {
 
     .section-inicio h1 {
         font-size: 1.520rem;
+    }
+
+    .section-inicio p {
+        font-size: .9rem;
+    }
+
+    .img-decoration {
+        top: 102%;
+        height: 10rem;
+    }
+
+
+}
+
+@media screen and (max-width: 410px) {
+
+
+    .section-inicio h1 {
+        font-size: 1.4rem;
     }
 
     .section-inicio p {
